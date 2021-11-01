@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-dependency",
+    "version": "e3ff06f-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-e3ff06f-SNAPSHOT.jar",
+          "url": "antibytes-dependency-e3ff06f-SNAPSHOT.jar",
+          "size": 19139,
+          "sha512": "af8992586059c4e64e22f9d60e9dfe1719bd5e03000cec65edbb8eec0bf46a0f06bca924ecd36e401c51201c0f6e3236d5a3ae9ad723740b93e9f9540a795f45",
+          "sha256": "01f7bdaab7fce3330878f4f307a6f53e2e33022b2cfad90d2913a01603ec6be0",
+          "sha1": "ec857347593d8fc36ded5f39d82d72c9d7a95f54",
+          "md5": "a47c32d38c0537710bfae5a700662094"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-e3ff06f-SNAPSHOT.jar",
+          "url": "antibytes-dependency-e3ff06f-SNAPSHOT.jar",
+          "size": 19139,
+          "sha512": "af8992586059c4e64e22f9d60e9dfe1719bd5e03000cec65edbb8eec0bf46a0f06bca924ecd36e401c51201c0f6e3236d5a3ae9ad723740b93e9f9540a795f45",
+          "sha256": "01f7bdaab7fce3330878f4f307a6f53e2e33022b2cfad90d2913a01603ec6be0",
+          "sha1": "ec857347593d8fc36ded5f39d82d72c9d7a95f54",
+          "md5": "a47c32d38c0537710bfae5a700662094"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>tech.antibytes.gradle-plugins</groupId>
+  <artifactId>antibytes-dependency</artifactId>
+  <versioning>
+    <latest>e3ff06f-SNAPSHOT</latest>
+    <versions>
+      <version>e3ff06f-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20211101134801</lastUpdated>
+  </versioning>
+</metadata>
