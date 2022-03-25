@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.1.0/kmock-0.1.0.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-js-0.1.0.klib",
+          "url": "kmock-js-0.1.0.klib",
+          "size": 136190,
+          "sha512": "1c368b052ccedd21b4e6153495c6cfacb343f886ebd7a053c04c0a555c6e2c11c8f17a8341817c0739f45f85cafe64c1e12fa6742c7bb15c256811d2d7455370",
+          "sha256": "c05d4735f6eab952e96574be36d81b33ee12c4f1bf9fecd530d7d1d9975c9c65",
+          "sha1": "a020845ed493ee1f8e669d152882c3b9ec0c70c1",
+          "md5": "a12904d0f2608b417f7bee8013742579"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-js-0.1.0.klib",
+          "url": "kmock-js-0.1.0.klib",
+          "size": 136190,
+          "sha512": "1c368b052ccedd21b4e6153495c6cfacb343f886ebd7a053c04c0a555c6e2c11c8f17a8341817c0739f45f85cafe64c1e12fa6742c7bb15c256811d2d7455370",
+          "sha256": "c05d4735f6eab952e96574be36d81b33ee12c4f1bf9fecd530d7d1d9975c9c65",
+          "sha1": "a020845ed493ee1f8e669d152882c3b9ec0c70c1",
+          "md5": "a12904d0f2608b417f7bee8013742579"
+        }
+      ]
+    }
+  ]
+}
