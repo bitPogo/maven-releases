@@ -1,0 +1,189 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kmock-metadata-0.2.0-rc01.jar",
+          "url": "kmock-0.2.0-rc01.jar",
+          "size": 45995,
+          "sha512": "0d4dce11e2ac85186aeb712efcffd943eff008f72a486f8609dae33b888867055e1a0d474b0f689a513de9e27b974d76f6407a5ad06da537e860c770cfe803cb",
+          "sha256": "175c28665d1b190548f64849868f8312c11698f8641ed5f8723079761e6d65ff",
+          "sha1": "836c7fb30a6f31c9380c40c292df476c8db33308",
+          "md5": "0541a45e3db06678dcef4b4780abd0c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.2.0-rc01/kmock-android-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.2.0-rc01/kmock-android-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.2.0-rc01/kmock-iosarm64-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.2.0-rc01/kmock-iossimulatorarm64-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.2.0-rc01/kmock-iosx64-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.2.0-rc01/kmock-js-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.2.0-rc01/kmock-js-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.2.0-rc01/kmock-jvm-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.2.0-rc01/kmock-jvm-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.2.0-rc01"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-linuxx64/0.2.0-rc01/kmock-linuxx64-0.2.0-rc01.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-linuxx64",
+        "version": "0.2.0-rc01"
+      }
+    }
+  ]
+}
