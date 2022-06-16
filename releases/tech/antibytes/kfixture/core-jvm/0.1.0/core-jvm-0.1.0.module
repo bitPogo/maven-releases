@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.1.0/core-0.1.0.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.1.0.jar",
+          "url": "core-jvm-0.1.0.jar",
+          "size": 101337,
+          "sha512": "1c47448a8a719aab7bae790c9a99bb4ee832671cdfd7ceca633ea3f538e20e8e8d560ffadf480e79bf81cbcb24142418f77bf210c8fbf01f5be03dc7911a0de8",
+          "sha256": "6bbef260a026ae0ef9a5683b8dde57dcefabd20449f991d397b9c564e626b709",
+          "sha1": "3e879829a6b9b48667da5998df44495d1535b419",
+          "md5": "3009d7da82fcfc715d446fe296b62de2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.1.0.jar",
+          "url": "core-jvm-0.1.0.jar",
+          "size": 101337,
+          "sha512": "1c47448a8a719aab7bae790c9a99bb4ee832671cdfd7ceca633ea3f538e20e8e8d560ffadf480e79bf81cbcb24142418f77bf210c8fbf01f5be03dc7911a0de8",
+          "sha256": "6bbef260a026ae0ef9a5683b8dde57dcefabd20449f991d397b9c564e626b709",
+          "sha1": "3e879829a6b9b48667da5998df44495d1535b419",
+          "md5": "3009d7da82fcfc715d446fe296b62de2"
+        }
+      ]
+    }
+  ]
+}
