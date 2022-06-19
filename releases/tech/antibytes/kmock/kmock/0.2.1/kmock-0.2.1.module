@@ -1,0 +1,189 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kmock-metadata-0.2.1.jar",
+          "url": "kmock-0.2.1.jar",
+          "size": 47913,
+          "sha512": "7108f79fb3df36a059c2281001b401dd050b84d8da1034e21be090715b5d95edb6c60725226cfc5fadde50d803a26fd4c4a83961ce4a10ac5274ad4a98996add",
+          "sha256": "53e05852ad08066a45c98906d49d57bf6d5c94a3a85dac3b42abe1deb9737758",
+          "sha1": "add73f43147c85e853dd6a5b5ba82f38ef1056d7",
+          "md5": "50257b9c037fa362c8032c5533da7f23"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.2.1/kmock-android-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.2.1/kmock-android-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.2.1/kmock-iosarm64-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.2.1/kmock-iossimulatorarm64-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.2.1/kmock-iosx64-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.2.1/kmock-js-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.2.1/kmock-js-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.2.1/kmock-jvm-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.2.1/kmock-jvm-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-linuxx64/0.2.1/kmock-linuxx64-0.2.1.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-linuxx64",
+        "version": "0.2.1"
+      }
+    }
+  ]
+}
