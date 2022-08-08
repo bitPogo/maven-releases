@@ -28,10 +28,10 @@
           "name": "core-jvm-0.3.1.jar",
           "url": "core-jvm-0.3.1.jar",
           "size": 251485,
-          "sha512": "9c96b3319e673aa796bb1fcf4b96fb40688b746da14ab4c5b75ecde73fd26eaad026c058dbccaf6a87ec227871001ada9d33b764656b8129b7fd5d3818aa1082",
-          "sha256": "9f8e9bca4116c8613c14bb81a4057c90047993c6f59fec4982d557f4ebc04553",
-          "sha1": "ba937eb4430925c126ffa7c315e85cb9bc25114c",
-          "md5": "e888634ac958208b512b90b9abff6280"
+          "sha512": "071de25b5e0649872686057db8d57fe0a1c85f534db4c313c4d900d19948aa54d5dcb8a44754cbab6e8ddd4eaaf29253ebc19824f0b93fd32ae4f9355c9e6a21",
+          "sha256": "98d9ed671945a3a990278efeea918d5d12779c40afa225464b71c81889b1fb03",
+          "sha1": "b1c49eebf35c1b59e037343e2f0d4cfd91bd6270",
+          "md5": "1be69f9d874df31da66d870c16f25857"
         }
       ]
     },
@@ -78,10 +78,10 @@
           "name": "core-jvm-0.3.1.jar",
           "url": "core-jvm-0.3.1.jar",
           "size": 251485,
-          "sha512": "9c96b3319e673aa796bb1fcf4b96fb40688b746da14ab4c5b75ecde73fd26eaad026c058dbccaf6a87ec227871001ada9d33b764656b8129b7fd5d3818aa1082",
-          "sha256": "9f8e9bca4116c8613c14bb81a4057c90047993c6f59fec4982d557f4ebc04553",
-          "sha1": "ba937eb4430925c126ffa7c315e85cb9bc25114c",
-          "md5": "e888634ac958208b512b90b9abff6280"
+          "sha512": "071de25b5e0649872686057db8d57fe0a1c85f534db4c313c4d900d19948aa54d5dcb8a44754cbab6e8ddd4eaaf29253ebc19824f0b93fd32ae4f9355c9e6a21",
+          "sha256": "98d9ed671945a3a990278efeea918d5d12779c40afa225464b71c81889b1fb03",
+          "sha1": "b1c49eebf35c1b59e037343e2f0d4cfd91bd6270",
+          "md5": "1be69f9d874df31da66d870c16f25857"
         }
       ]
     }

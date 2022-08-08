@@ -49,10 +49,10 @@
           "name": "core-metadata-0.3.1-all.jar",
           "url": "core-0.3.1-all.jar",
           "size": 22410,
-          "sha512": "2f22e340322247ec5e8a4321b8dbc09350fe361fa10be0528e164adfe394dcd8c700e4e2e047ea21753bd389e7c67f6d86b6c7af654798a83105a50a474ffc60",
-          "sha256": "c96501491184331a54ec55f1fc5270c3e7954d0e15ef1621756c3c5ba62f8a9d",
-          "sha1": "a8ab49f14018153b7a9617c2b62c1166db33c227",
-          "md5": "2a89ddf1bf09c455a26f0bd41a47b699"
+          "sha512": "7d262482d0237910726a11ba14f9eeaef7601668382bb816cf0329fb57bc339cfb6f9ef1da0b197bfa064132080176527c5d75fa233cd4ff213ab51bea1ca9a7",
+          "sha256": "17c782863b25e16f635c33900c342824fec0f89b8028bfe4515d43ff5b8a09fd",
+          "sha1": "a5d34a52e09880eb2e5311833aa8681e751f61b7",
+          "md5": "c020bf38520aab3c7d11ec501f1ed54d"
         }
       ]
     },
@@ -68,10 +68,10 @@
           "name": "core-0.3.1.jar",
           "url": "core-0.3.1.jar",
           "size": 37352,
-          "sha512": "32b75bb3f2002b99a88d4aaef36f2c3fdf21f5131bea2822dfa889c2d248d82c0b929e5898f4b800dd6c458f996a42eb4c71d2b74cfdc2bdebd7a23f7ec49fd9",
-          "sha256": "a94654ac2a55bf9103baf864967e5ae5fbe86167480cc77691867dc9cc38237f",
-          "sha1": "55cb8be1dbe0455107b663075ed6eaa791809721",
-          "md5": "00da232bff1e22cf3715a0e72144e82b"
+          "sha512": "abeaf2bb6a093bda37c7e1aee6f030d2dd22b454a998c27ebdde5e150469dfc0150bc72855db70f82c5b5ea98d5c472c2f6fdb5d668bedaf220401eba5bfc4d4",
+          "sha256": "886592fad09121aa886f7709d6d33702d0a2bf5ca21b9fb30e8abe027b11dade",
+          "sha1": "20c6cc802207e84b4ba0fb8083b2574db8c7bc09",
+          "md5": "bc35ee223292fb3c9800e62a8e01c5ce"
         }
       ]
     },

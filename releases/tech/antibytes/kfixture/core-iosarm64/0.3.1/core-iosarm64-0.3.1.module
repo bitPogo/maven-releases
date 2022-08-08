@@ -96,10 +96,10 @@
           "name": "core-iosarm64-0.3.1-metadata.jar",
           "url": "core-iosarm64-0.3.1-metadata.jar",
           "size": 261,
-          "sha512": "68e9533dba69e44e1ec303fa559d0b89d19810c0e23c55454c30564be56d93e5aa82578d0ca1cdb9a7799f31cdd77243616f4c48fd5f0cf30b58cbfe750a7a90",
-          "sha256": "76f66dc9cb76525a450edb8a0911f341d5a487368b82ef78c78693932aae09c1",
-          "sha1": "f4b22bb96783349de4c51b587550ebd37c9498f0",
-          "md5": "7076805d03b660ecbbb602ad5cd576ad"
+          "sha512": "e8d32af222c8442b9d9d263da327deb79739d1cf615f7e4b92d123aca75ae82aa2a100f3b23d6c6b36d616e2791609815416040503c23575fe999da74ebbf2cf",
+          "sha256": "360a075476f56d2b1f472306d862221478c1767457a50eab60f1032987dd7ec7",
+          "sha1": "b86b04bf05d42d5de5ab339f33fd8364419051f3",
+          "md5": "41991fced55a7c1e3c4eb9ebb0e63c11"
         }
       ]
     }
