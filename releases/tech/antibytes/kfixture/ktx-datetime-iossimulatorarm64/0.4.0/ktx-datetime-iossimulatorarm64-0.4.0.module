@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0/ktx-datetime-0.4.0.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-iossimulatorarm64-0.4.0.klib",
+          "size": 34785,
+          "sha512": "8f0b1a31f3112809e249c830ea7dc505cd979b549c66f799f854a8c005e456b87cb265a5642b64c9090441f96a1dc355070b088c49f54bb31ee8fe6de75689a6",
+          "sha256": "f1a3d0355c51be80e881bd041a1cbb722f80aabcf457e03d3d141b141ce99a23",
+          "sha1": "98d8873bffae3b4f6f3e1f2920f94408a0d4de20",
+          "md5": "e73173220ddfd62b626eeec87f235a82"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-iossimulatorarm64-0.4.0-metadata.jar",
+          "url": "ktx-datetime-iossimulatorarm64-0.4.0-metadata.jar",
+          "size": 261,
+          "sha512": "4e150cc5373d0931b26c0cd4fe624d5744b7e65684f3bdaf8ebc7ded5c73d1dfd18dd8b8e797a92367e9e27b9e68cbaf7f7416df051554eeb481a0409f697b1f",
+          "sha256": "1b67a191871dbdbd8ab80279bb67ea4977053208b9781b192e9ea338103c7695",
+          "sha1": "16d06f991b654f596db73855ee7f3f82f6cd20a9",
+          "md5": "3b73088c98e6fbcc36304534a086de1e"
+        }
+      ]
+    }
+  ]
+}
