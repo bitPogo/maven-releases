@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc08/kmock-0.3.0-rc08.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-watchosarm64-0.3.0-rc08.klib",
+          "size": 203051,
+          "sha512": "8a05cf38eeedc15b0334b853d5cc3ed63eb4ec6a9e0128bf97faed62a0375087804e65bea978c726a05f98fba9c935cfa67c864919c85adf9069f70a7867756c",
+          "sha256": "8c948b6965c6b83f568e6c5e79d1ae43c9acf03b70eddf0f83d71ca74a7dffba",
+          "sha1": "1fa3c4baa6f5ca40aeaecf5442b61bb9f27646c8",
+          "md5": "44085008cb6ed84f64654cf1a607e61b"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-watchosarm64-0.3.0-rc08-metadata.jar",
+          "url": "kmock-watchosarm64-0.3.0-rc08-metadata.jar",
+          "size": 261,
+          "sha512": "9907fab6c2e7804c586b288e76fc98e1cd637b120c17000e0cf19b1745ddf18846a8173815f3feb3cf5330fdcf9cd5575cebfc5308dbd183fd593346e391c028",
+          "sha256": "df81d72c4956a9e49fb7caace8574418ce7ee667832490eb3a96ddb8c1f4e26b",
+          "sha1": "a2273efcc635183ba3bbddf64aa76a9b45b12090",
+          "md5": "53b8e7c784d9aaf977337d1a15ef0425"
+        }
+      ]
+    }
+  ]
+}
